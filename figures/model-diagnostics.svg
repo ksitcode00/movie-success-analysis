@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="460" viewBox="0 0 1040 460" role="img" aria-labelledby="title desc">
+  <title id="title">Worldwide gross model diagnostic summary</title>
+  <desc id="desc">The final worldwide gross model had adjusted R-squared 0.512 and Durbin-Watson 1.871, while some rating dummy variables required multicollinearity review.</desc>
+  <rect width="1040" height="460" fill="#fff"/>
+  <text x="64" y="70" fill="#132238" font-family="Arial,sans-serif" font-size="30" font-weight="700">Model review: fit, diagnostics, and limits</text>
+  <text x="64" y="108" fill="#5e6b7a" font-family="Arial,sans-serif" font-size="18">Final linear model for log worldwide gross</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="64" y="160" width="270" height="180" rx="16" fill="#e8f2f4"/><text x="94" y="210" fill="#5e6b7a" font-size="18">Adjusted R²</text><text x="94" y="290" fill="#132238" font-size="56" font-weight="700">0.512</text>
+    <rect x="385" y="160" width="270" height="180" rx="16" fill="#edf4ee"/><text x="415" y="210" fill="#5e6b7a" font-size="18">Durbin-Watson</text><text x="415" y="290" fill="#132238" font-size="56" font-weight="700">1.871</text>
+    <rect x="706" y="160" width="270" height="180" rx="16" fill="#fff1e7"/><text x="736" y="210" fill="#5e6b7a" font-size="18">Specification review</text><text x="736" y="260" fill="#132238" font-size="24" font-weight="700">VIF checks</text><text x="736" y="292" fill="#5e6b7a" font-size="16">Rating dummies reviewed</text>
+  </g>
+  <line x1="64" y1="385" x2="976" y2="385" stroke="#d2dbe2" stroke-width="2"/>
+  <text x="64" y="425" fill="#5e6b7a" font-family="Arial,sans-serif" font-size="17">Model fit is reported for explanatory analysis; post-release variables rule out pre-release forecasting claims.</text>
+</svg>

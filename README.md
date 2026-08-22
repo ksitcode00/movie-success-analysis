@@ -60,6 +60,10 @@ The main analytical challenge was source integration: normalizing movie names, r
   <img src="figures/model-scope.svg" alt="Two post-release explanatory models" width="900" />
 </p>
 
+<p align="center">
+  <img src="figures/model-diagnostics.svg" alt="Worldwide gross model diagnostic summary" width="900" />
+</p>
+
 ## Analysis Walkthrough
 
 ### 1. Normalize movie titles before matching
