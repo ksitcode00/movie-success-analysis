@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img" aria-labelledby="title desc">
+  <title id="title">Worldwide gross model evaluation panel</title>
+  <desc id="desc">A public-safe model-evaluation visual showing adjusted R-squared, Durbin-Watson, diagnostic checks, explanatory feature groups, and scope limits from recorded project results.</desc>
+  <rect width="1200" height="670" fill="#f6f8fb"/>
+  <g font-family="Arial, sans-serif">
+    <text x="48" y="58" font-size="30" font-weight="700" fill="#143d59">Worldwide Gross Model: Evaluation Panel</text>
+    <text x="48" y="88" font-size="16" fill="#5b6b7a">Post-release explanatory model · public-safe recorded outputs</text>
+    <rect x="949" y="35" width="203" height="40" rx="20" fill="#edf1fb"/><text x="1050" y="61" text-anchor="middle" font-size="15" font-weight="700" fill="#405f9f">933-movie analysis table</text>
+
+    <rect x="48" y="124" width="343" height="344" rx="16" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="74" y="160" font-size="20" font-weight="700" fill="#143d59">Model fit</text>
+    <text x="74" y="185" font-size="14" fill="#5b6b7a">Adjusted variation explained in log worldwide gross</text>
+    <circle cx="220" cy="305" r="94" fill="none" stroke="#e7edf2" stroke-width="25"/>
+    <circle cx="220" cy="305" r="94" fill="none" stroke="#0a7f65" stroke-width="25" stroke-linecap="round" stroke-dasharray="302 591" transform="rotate(-90 220 305)"/>
+    <text x="220" y="301" text-anchor="middle" font-size="43" font-weight="700" fill="#143d59">0.512</text>
+    <text x="220" y="328" text-anchor="middle" font-size="14" fill="#5b6b7a">adjusted R²</text>
+    <text x="220" y="411" text-anchor="middle" font-size="15" font-weight="700" fill="#08785f">About half of observed variation explained</text>
+    <text x="220" y="437" text-anchor="middle" font-size="13" fill="#72808f">appropriate for a noisy real-world outcome</text>
+
+    <rect x="415" y="124" width="355" height="344" rx="16" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="441" y="160" font-size="20" font-weight="700" fill="#143d59">Specification review</text>
+    <text x="441" y="185" font-size="14" fill="#5b6b7a">Diagnostics documented in the original notebook</text>
+    <rect x="441" y="211" width="303" height="62" rx="10" fill="#eef6f4"/><circle cx="470" cy="242" r="11" fill="#0a7f65"/><path d="M465 242l4 4 7-9" fill="none" stroke="#fff" stroke-width="2.5"/><text x="493" y="239" font-size="15" font-weight="700" fill="#143d59">Residual pattern reviewed</text><text x="493" y="259" font-size="13" fill="#5b6b7a">Fitted vs. residuals diagnostic</text>
+    <rect x="441" y="285" width="303" height="62" rx="10" fill="#eef6f4"/><circle cx="470" cy="316" r="11" fill="#0a7f65"/><path d="M465 316l4 4 7-9" fill="none" stroke="#fff" stroke-width="2.5"/><text x="493" y="313" font-size="15" font-weight="700" fill="#143d59">Distribution &amp; influence reviewed</text><text x="493" y="333" font-size="13" fill="#5b6b7a">Q-Q and leverage diagnostics</text>
+    <rect x="441" y="359" width="303" height="80" rx="10" fill="#fff6e9"/><circle cx="470" cy="391" r="11" fill="#d98022"/><path d="M470 385v8m0 6h.1" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><text x="493" y="388" font-size="15" font-weight="700" fill="#143d59">Collinearity handled transparently</text><text x="493" y="409" font-size="13" fill="#5b6b7a">VIF review and reduced-model comparison</text><text x="493" y="428" font-size="13" fill="#5b6b7a">for overlapping rating indicators</text>
+
+    <rect x="794" y="124" width="358" height="344" rx="16" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="820" y="160" font-size="20" font-weight="700" fill="#143d59">Interpretable inputs retained</text>
+    <text x="820" y="185" font-size="14" fill="#5b6b7a">Positive associations in the documented model</text>
+    <rect x="820" y="216" width="142" height="38" rx="19" fill="#e5f4ef"/><text x="891" y="241" text-anchor="middle" font-size="14" font-weight="700" fill="#08785f">Production budget</text>
+    <rect x="975" y="216" width="142" height="38" rx="19" fill="#edf1fb"/><text x="1046" y="241" text-anchor="middle" font-size="14" font-weight="700" fill="#405f9f">Audience rating</text>
+    <rect x="820" y="269" width="142" height="38" rx="19" fill="#fff0ed"/><text x="891" y="294" text-anchor="middle" font-size="14" font-weight="700" fill="#b54736">Franchise / IP</text>
+    <rect x="975" y="269" width="142" height="38" rx="19" fill="#f3eefb"/><text x="1046" y="294" text-anchor="middle" font-size="14" font-weight="700" fill="#654a91">Critic score</text>
+    <rect x="820" y="322" width="142" height="38" rx="19" fill="#edf7fb"/><text x="891" y="347" text-anchor="middle" font-size="14" font-weight="700" fill="#227089">Runtime</text>
+    <line x1="820" y1="392" x2="1118" y2="392" stroke="#e4ebf1"/>
+    <text x="820" y="421" font-size="14" font-weight="700" fill="#143d59">Durbin–Watson: 1.871</text>
+    <text x="820" y="444" font-size="13" fill="#5b6b7a">No major residual-autocorrelation concern noted</text>
+
+    <rect x="48" y="494" width="1104" height="118" rx="16" fill="#143d59"/>
+    <text x="74" y="532" font-size="17" font-weight="700" fill="#ffffff">Interpretation boundary</text>
+    <text x="74" y="561" font-size="15" fill="#d7e5ed">This is a post-release explanatory model. Budget, ratings, franchise status, critic score, runtime, and worldwide gross should not be interpreted as pre-release forecast inputs or causal effects.</text>
+    <text x="74" y="592" font-size="13" fill="#a9c2cf">The panel reports documented metrics and completed diagnostics; it intentionally does not recreate unpublished row-level residual or coefficient plots.</text>
+  </g>
+</svg>

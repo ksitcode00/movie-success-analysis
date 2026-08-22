@@ -43,6 +43,12 @@ I collected and integrated movie budget, revenue, ratings, critic score, Oscar h
   <img src="figures/data-pipeline.svg" alt="Movie data integration pipeline" width="900" />
 </p>
 
+## Model Evaluation Panel
+
+<p align="center">
+  <img src="figures/model-evaluation-panel.svg" alt="Worldwide gross model evaluation panel" width="900" />
+</p>
+
 The main analytical challenge was source integration: normalizing movie names, resolving punctuation and encoding differences, aligning titles across tables, then building interpretable numerical, binary, and categorical features.
 
 ## Key Findings
