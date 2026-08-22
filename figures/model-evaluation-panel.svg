@@ -38,7 +38,8 @@
 
     <rect x="48" y="494" width="1104" height="118" rx="16" fill="#143d59"/>
     <text x="74" y="532" font-size="17" font-weight="700" fill="#ffffff">Interpretation boundary</text>
-    <text x="74" y="561" font-size="15" fill="#d7e5ed">This is a post-release explanatory model. Budget, ratings, franchise status, critic score, runtime, and worldwide gross should not be interpreted as pre-release forecast inputs or causal effects.</text>
-    <text x="74" y="592" font-size="13" fill="#a9c2cf">The panel reports documented metrics and completed diagnostics; it intentionally does not recreate unpublished row-level residual or coefficient plots.</text>
+    <text x="74" y="561" font-size="15" fill="#d7e5ed">This is a post-release explanatory model. Budget, ratings, and franchise status are not causal inputs.</text>
+    <text x="74" y="583" font-size="15" fill="#d7e5ed">Critic score, runtime, and gross should not be read as pre-release forecast inputs.</text>
+    <text x="74" y="602" font-size="13" fill="#a9c2cf">Documented metrics and completed diagnostics are shown; unpublished row-level residual and coefficient plots are excluded.</text>
   </g>
 </svg>
