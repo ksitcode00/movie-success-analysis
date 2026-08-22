@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="440" viewBox="0 0 1040 440" role="img" aria-labelledby="title desc">
+  <title id="title">Worldwide gross model summary</title>
+  <desc id="desc">The final explanatory model reported an adjusted R-squared of about 0.512 and several positive associations with worldwide gross.</desc>
+  <rect width="1040" height="440" fill="#fff"/>
+  <text x="70" y="73" fill="#132238" font-family="Arial, sans-serif" font-size="30" font-weight="700">Worldwide-gross model: explanatory signal</text>
+  <text x="70" y="110" fill="#5e6b7a" font-family="Arial, sans-serif" font-size="18">Linear model for log worldwide gross · 933-movie final analysis dataset</text>
+  <rect x="70" y="155" width="270" height="175" rx="16" fill="#247b84"/>
+  <text x="205" y="218" fill="#fff" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">Adjusted R²</text>
+  <text x="205" y="280" fill="#fff" font-family="Arial, sans-serif" font-size="54" font-weight="700" text-anchor="middle">0.512</text>
+  <text x="405" y="170" fill="#132238" font-family="Arial, sans-serif" font-size="20" font-weight="700">Positive associations in the final model</text>
+  <g fill="#247b84" font-family="Arial, sans-serif" font-size="19">
+    <circle cx="420" cy="215" r="8"/><text x="445" y="222" fill="#34465a">Production budget</text>
+    <circle cx="420" cy="257" r="8"/><text x="445" y="264" fill="#34465a">Stronger user ratings</text>
+    <circle cx="420" cy="299" r="8"/><text x="445" y="306" fill="#34465a">Franchise / IP status</text>
+    <circle cx="700" cy="215" r="8"/><text x="725" y="222" fill="#34465a">Critic score</text>
+    <circle cx="700" cy="257" r="8"/><text x="725" y="264" fill="#34465a">Runtime</text>
+  </g>
+  <text x="70" y="395" fill="#5e6b7a" font-family="Arial, sans-serif" font-size="16">Associations are descriptive and post-release; they are not a pre-release forecasting model or causal evidence.</text>
+</svg>

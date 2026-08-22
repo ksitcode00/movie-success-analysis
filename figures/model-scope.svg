@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="410" viewBox="0 0 1040 410" role="img" aria-labelledby="title desc">
+  <title id="title">Movie analysis scope</title>
+  <desc id="desc">The project uses two post-release explanatory models: logistic regression for strong user ratings and linear regression for log worldwide gross.</desc>
+  <rect width="1040" height="410" fill="#fff"/>
+  <text x="70" y="73" fill="#132238" font-family="Arial, sans-serif" font-size="30" font-weight="700">Two post-release explanatory questions</text>
+  <text x="70" y="110" fill="#5e6b7a" font-family="Arial, sans-serif" font-size="18">Modeling relationships, not forecasting a movie before release</text>
+  <rect x="90" y="170" width="380" height="145" rx="16" fill="#e8f2f4"/>
+  <text x="280" y="215" text-anchor="middle" fill="#132238" font-family="Arial, sans-serif" font-size="23" font-weight="700">Audience rating quality</text>
+  <text x="280" y="252" text-anchor="middle" fill="#5e6b7a" font-family="Arial, sans-serif" font-size="18">Logistic regression</text>
+  <text x="280" y="281" text-anchor="middle" fill="#5e6b7a" font-family="Arial, sans-serif" font-size="16">Strong user-rating indicator</text>
+  <rect x="570" y="170" width="380" height="145" rx="16" fill="#fff1e7"/>
+  <text x="760" y="215" text-anchor="middle" fill="#132238" font-family="Arial, sans-serif" font-size="23" font-weight="700">Worldwide box-office gross</text>
+  <text x="760" y="252" text-anchor="middle" fill="#5e6b7a" font-family="Arial, sans-serif" font-size="18">Linear regression</text>
+  <text x="760" y="281" text-anchor="middle" fill="#5e6b7a" font-family="Arial, sans-serif" font-size="16">Log worldwide gross</text>
+</svg>

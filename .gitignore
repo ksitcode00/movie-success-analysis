@@ -1,0 +1,11 @@
+# Private or regenerated datasets
+data/private/
+data/*.csv
+!data/README.md
+
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+STA_141B_Final_Project_Code.*

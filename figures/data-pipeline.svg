@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="450" viewBox="0 0 1040 450" role="img" aria-labelledby="title desc">
+  <title id="title">Movie data integration pipeline</title>
+  <desc id="desc">Public web data were merged from 5,640 budget and gross records and 1,659 metadata records into a final model dataset of 933 movies.</desc>
+  <rect width="1040" height="450" fill="#fff"/>
+  <text x="70" y="73" fill="#132238" font-family="Arial, sans-serif" font-size="30" font-weight="700">From messy web sources to a model-ready dataset</text>
+  <text x="70" y="110" fill="#5e6b7a" font-family="Arial, sans-serif" font-size="18">Title normalization, entity matching, feature engineering, and quality checks</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="70" y="180" width="190" height="145" rx="14" fill="#e8f2f4"/>
+    <text x="165" y="225" fill="#132238" font-size="24" font-weight="700">5,640</text>
+    <text x="165" y="255" fill="#5e6b7a" font-size="17">budget / gross</text>
+    <text x="165" y="280" fill="#5e6b7a" font-size="17">records</text>
+    <rect x="310" y="180" width="190" height="145" rx="14" fill="#edf4ee"/>
+    <text x="405" y="225" fill="#132238" font-size="24" font-weight="700">1,659</text>
+    <text x="405" y="255" fill="#5e6b7a" font-size="17">metadata</text>
+    <text x="405" y="280" fill="#5e6b7a" font-size="17">records</text>
+    <rect x="550" y="180" width="190" height="145" rx="14" fill="#fff1e7"/>
+    <text x="645" y="225" fill="#132238" font-size="24" font-weight="700">1,000</text>
+    <text x="645" y="255" fill="#5e6b7a" font-size="17">matched movie</text>
+    <text x="645" y="280" fill="#5e6b7a" font-size="17">records</text>
+    <rect x="790" y="180" width="190" height="145" rx="14" fill="#f1ecf7"/>
+    <text x="885" y="225" fill="#132238" font-size="24" font-weight="700">933</text>
+    <text x="885" y="255" fill="#5e6b7a" font-size="17">final modeling</text>
+    <text x="885" y="280" fill="#5e6b7a" font-size="17">movies</text>
+  </g>
+  <g fill="#8aa0b2"><polygon points="285,250 269,240 269,260"/><polygon points="525,250 509,240 509,260"/><polygon points="765,250 749,240 749,260"/></g>
+  <text x="525" y="390" fill="#5e6b7a" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">Source counts and final sample size are saved outputs from the original 2022 project workflow.</text>
+</svg>
