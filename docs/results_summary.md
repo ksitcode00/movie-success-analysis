@@ -1,6 +1,6 @@
 # Results Summary
 
-This summary is based on the saved outputs in `notebooks/movie_success_analysis.ipynb`. The analysis was originally completed in 2022, so the results should be read as the output of that project workflow rather than as a current movie-market analysis.
+This summary records the original model outputs from `notebooks/movie_success_analysis.ipynb`. The public notebook has its saved outputs cleared to keep the portfolio copy data-safe. The analysis was originally completed in 2022, so the results should be read as the output of that project workflow rather than as a current movie-market analysis.
 
 ## Analysis Goal
 
