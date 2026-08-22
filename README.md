@@ -1,5 +1,7 @@
 # Movie Success Analysis: Web Scraping and Regression Modeling
 
+← [Back to Portfolio](https://github.com/ksitcode00)
+
 **UC Davis STA 141B final project** · **Python, web scraping, entity matching, regression**
 
 > An end-to-end data analysis workflow that combines messy public web sources to study post-release relationships with audience ratings and worldwide box-office performance.
@@ -57,6 +59,50 @@ The main analytical challenge was source integration: normalizing movie names, r
 <p align="center">
   <img src="figures/model-scope.svg" alt="Two post-release explanatory models" width="900" />
 </p>
+
+## Analysis Walkthrough
+
+### 1. Normalize movie titles before matching
+
+The data sources use inconsistent punctuation, encoding, and title formats. The original notebook standardizes title text before entity matching.
+
+```python
+def normalize_title(title):
+    title = unicodetoascii(str(title)).upper()
+    return re.sub(r"[^A-Z0-9 ]", "", title).strip()
+
+budget_df["Movie"] = budget_df["Movie"].map(normalize_title)
+metadata_df["Movie"] = metadata_df["Movie"].map(normalize_title)
+```
+
+### 2. Create one movie-level analytical table
+
+After normalization, budget/gross and metadata records are joined on the standardized movie key.
+
+```python
+movie_df = pd.merge(
+    budget_df, metadata_df,
+    on="Movie", how="inner"
+)
+movie_df = movie_df.dropna(subset=["Production Budget", "Worldwide Gross", "score_user"])
+```
+
+### 3. Fit an interpretable worldwide-gross model
+
+The final model treats log worldwide gross as a post-release explanatory outcome and uses diagnostics to review the specification.
+
+```python
+formula = "log_gross_wor ~ log_budget + score_user_good + ip + score_meta + log_mins"
+gross_model = smf.ols(formula=formula, data=model_df).fit()
+print(gross_model.rsquared_adj)
+```
+
+## Technical Challenges and Tradeoffs
+
+- Movie-title entity matching required normalization across inconsistent source formats.
+- Web structures have changed since the 2022 workflow, so live scraping requires maintenance.
+- Some rating dummies showed multicollinearity and were reviewed with VIF and reduced-model diagnostics.
+- User ratings, critic score, and worldwide gross are post-release signals; the work is explanatory, not pre-release forecasting or causal inference.
 
 ## Analysis and Documentation
 
